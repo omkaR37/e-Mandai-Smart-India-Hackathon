@@ -1,0 +1,126 @@
+body
+{
+margin:0;
+padding:0;
+background:url(bg/bg.jpg);
+font-size: 16px;
+color:#777;
+font-family:sans-serif;
+font-weight: 300;
+
+}
+.photobox{
+  position: absolute;
+  width: 130px;
+  height: 150px;
+  box-sizing: border-box;
+  background:black;
+  margin-left: 47%;
+  margin-top: 8%;
+: white;
+}
+.photobox input[type="file"]
+{
+	position: relative;
+	margin-top: 15px;
+	background: #f44336;
+color: black;
+
+}
+
+#login-box
+{
+position: relative;
+	margin: 5% 10%;
+  height: 1000px;
+	max-height: 1000px;
+	background: rgba(0,0,0,0.3);
+	box-shadow: 0 2px 4px rgba(0,0,0,0.6);
+
+}
+
+button:focus{
+	box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+	font-family: cursive;
+	font-weight: bold;
+	color: whitesmoke;
+	background: rgba(0,0,0,0.13);
+}
+
+.left-box
+{
+	position:absolute;
+	top: 0;
+	left: 0;
+	color: black;
+    box-sizing: border-box;
+    padding: 40px;
+    width: 300px;
+    height: 400px;
+
+}
+
+h1,h4
+{
+	margin: 0 0 20px 0;
+	font-weight: 300;
+	font-size: 28px;
+
+}
+.box{
+	margin-left: 100px;
+	width: 500px;
+	padding:10px; 
+	font-family: cursive;
+	font-size: 1rem;
+	
+}
+
+
+input[type="text"],input[type="date"],input[type="Password"]
+{
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.04);
+  display: block;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  padding: 4px;
+  width: 220px;
+  height: 32px;
+  border: none;
+  outline:none;
+  border-bottom: 1px solid #aaa;
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  transition: 0.2s ease;
+  margin-left: 100px;
+
+}
+.left-box input[type="submit"]
+{
+margin-bottom: 28px;
+width: 120px;
+height: 32px;
+background: #f44336;
+border: none;
+border-radius: 2px;
+color: #fff;
+font-family: sans-serif;
+font-weight: 500;
+text-transform: uppercase;
+transition: 0.2s ease;
+cursor: pointer;
+}
+
+
+
+input[type="submit"]:hover,input[type="submit"]:focus
+{
+    background: #ff5722;
+    transition: 0.2s ease;
+
+}
+
+
+
+
